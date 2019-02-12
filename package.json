@@ -1,0 +1,39 @@
+{
+  "name": "nodejs-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for Nodejs Using ExpressJS and PostgreSQL",
+  "main": "./lib/index.js",
+  "bin": {
+    "api-build": "bin/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "boilerplate",
+    "expressjs"
+  ],
+  "preferGlobal": true,
+  "author": "Fadhli Majid <fadhlimajid43@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "dotenv": "^6.2.0",
+    "helmet": "^3.15.1",
+    "jsonwebtoken": "^8.4.0",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "pg": "^7.8.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^5.4.0"
+  }
+}
